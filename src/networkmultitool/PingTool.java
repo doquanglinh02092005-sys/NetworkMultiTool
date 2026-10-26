@@ -302,10 +302,4 @@ public static String connectPing(String host, int port) {
 
     return result.toString();
 }
-
-    public static void main(String[] args) {
-        System.out.println(
-        connectPing("google.com", 443)
-    );
-    }
 }
